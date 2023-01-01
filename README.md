@@ -18,6 +18,8 @@ The goal is to practice with the basics of Flask: routes and templates.
 
 - All the routes should use the HTTP GET method (no POST or other kinds of
 requests for now)
+- Don't be afraid to copy/paste code from index.html to your other template
+    files as you get started
 
 ## Starter Code
 
