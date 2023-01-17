@@ -14,6 +14,10 @@ The goal is to practice with the basics of Flask: routes and templates.
 - When they click a number, the app should tell them if the number was correct,
     too high, or too low, and show a link back to guess again
 
+This is what the page of numbers to guess should look like:
+
+![demo of number guess page](numbers-to-guess.png)
+
 ## Notes
 
 - All the routes should use the HTTP GET method (no POST or other kinds of
