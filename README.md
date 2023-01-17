@@ -8,9 +8,10 @@ The goal is to practice with the basics of Flask: routes and templates.
 ## Features
 
 - index page should tell the user about the game, and have a link to start the
-    game
-- When they click to start the game, the user should be shown a page with 
-- numbers to guess
+    game, at the url `/game`
+- When they click to start the game, the user should be shown a page with numbers 
+  to guess. Each number should link to the 'guess page' for that number, like
+  `/guess/31` for 31.
 - When they click a number, the app should tell them if the number was correct,
     too high, or too low, and show a link back to guess again
 
@@ -29,7 +30,7 @@ requests for now)
 
 There is an app.py file that renders the index.html template file.
 
-You should write more routes in app.py and create additional template files for
+You should write the other routes in app.py and create additional template files for
 the other pages of the application.
 
 Start the development app by running:
@@ -42,6 +43,10 @@ flask run
 
 You should run your app and check that behaves as expected by trying the game in
 the browser.
+
+You can also run the automated tests to check whether your solution matches the
+expectation. Gradescope will use the automated tests to score your answer. Run
+`pytest test_app.py` to test your app.
 
 ## Bonus
 
